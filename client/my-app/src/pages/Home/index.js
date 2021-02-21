@@ -1,5 +1,7 @@
 import {Grid, Typography, Button} from '@material-ui/core';
 
+document.body.style.backgroundColor = "#192430";
+
 function Home() {
     
     return (
@@ -13,9 +15,11 @@ function Home() {
                 justify="center"
                 alignItems="center"
                 >
-                <Typography variant="h1" component="h2">
-                EDventure
-                </Typography>
+                <font color="#db5555">
+                    <Typography variant="h1" component="h2">
+                    EDventure
+                    </Typography>
+                </font>
             </Grid>
 
             <Grid
@@ -24,7 +28,9 @@ function Home() {
             justify="center"
             alignItems="center"
             >
+                <font color="#ada69f">
                 <h1>Conquer the unknown!</h1>
+                </font>
             </Grid>
 
             <Grid
