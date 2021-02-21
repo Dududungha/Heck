@@ -1,7 +1,11 @@
+import 'fontsource-roboto';
+import Home from './pages/Home';
+import Quest from './pages/Quest';
+
 function App() {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Home />
         </div>
     )
 }
